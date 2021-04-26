@@ -10,7 +10,7 @@ public class CalDistance_03 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		File k01_f = new File("C:\\Users\\seosk\\Desktop\\전국공영주차장정보.txt");			// 파일 저장 위치 설정
+		File k01_f = new File("C:\\Users\\강세영\\Desktop\\전국공영주차장정보.txt");			// 파일 저장 위치 설정
 		BufferedReader k01_br = new BufferedReader(new FileReader(k01_f));					// BufferedReader 클래스 사용해서 f파일 읽기
 		String k01_readtxt;																	// 문장형 변수 k01_readtxt 선언
 		
