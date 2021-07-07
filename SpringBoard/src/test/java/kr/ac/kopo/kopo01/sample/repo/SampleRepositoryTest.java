@@ -35,7 +35,6 @@ public class SampleRepositoryTest {
             .andExpect(content().string(containsString("title")));
     }
     
-    /*
     @Autowired
     private SampleRepository sampleRepository;
     
@@ -64,5 +63,4 @@ public class SampleRepositoryTest {
     public void notEqualTest() {
         assertEquals("안녕하세영", "이리오세영");
     }
-    */
 }

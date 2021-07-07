@@ -12,8 +12,9 @@ public class Sample {
 	@GeneratedValue
 	@Column
 	private Long id;
+	
 	@Column
-	private String title;
+	private String title;	
 	
 	public Sample() {
 		
